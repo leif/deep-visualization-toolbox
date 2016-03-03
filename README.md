@@ -22,8 +22,8 @@ Starting from your caffe directory, run:
     $ git fetch --all
     $ git checkout --track -b deconv-deep-vis-toolbox yosinski/deconv-deep-vis-toolbox
     $ make clean
-    $ make -j
-    $ make -j pycaffe
+    $ make -j 4
+    $ make -j 4 pycaffe
 
 As noted above, feel free to compile in `CPU_ONLY` mode if desired.
 
